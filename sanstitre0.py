@@ -49,46 +49,39 @@ from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image, PageBreak
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import mm
- 
-
-#page de titre basique. 
-def generate_(c):
-    image = 'Human_chromosome_21_from_Gene_Gateway_-_no_label.png'
-    c.setFont('Helvetica',48, leading = None)
-    c.drawCentredString(350,600,'Chromosome 21')
-    c.drawImage(image, 100, 100,width = 200, height = 200)
-    c.showPage()
-#commande d'exécution de la fonction       
-c = canvas.Canvas('21.pdf', pagesize = letter)
-generate_book(c)    
 
 #génération d'un pdf contenant la séquence
+def generate_book(c):
+    title = 'Chromosme 21'
+    ptr = open("Seqmin80.txt", "r")  #fichier text à convertir
+    lines = ptr.readlines()
+    ptr.close()
+    i = 800
+    numeroLine = 0
+    c = canvas.Canvas('Chr21C60999.pdf')
+    image = 'Human_chromosome_21_from_Gene_Gateway_-_no_label.png'
+    c.setFont('Helvetica',60, leading= None)
+    c.drawCentredString(300, 800,title)
+    c.drawImage(image,100,100,width=200, height =200)
+    c.showPage()
+    while numeroLine < len(lines):
+        if numeroLine - len(lines) < 63: # Défini les nombre de ligne par page
+            i=800
+            for line in lines[numeroLine:numeroLine+63]:
+                c.setFont('Helvetica',10,leading=None)
+                c.drawString(15, i, line.strip())   #si centré 300 sinon 15
+                numeroLine += 1
+                i -= 12                 #espace interligne
+            c.showPage()
+#    else:
+#        i = 800
+#        for line in lines[numeroLine:]:
+#           numeroLine += 1
+#           i -= 12
 
-ptr = open("Seqmin80.txt", "r")  #fichier text à convertir
-lines = ptr.readlines()
-ptr.close()
-i = 800
-numeroLine = 0
-c = canvas.Canvas('Chr21C.pdf')
-
-
-while numeroLine < len(lines):
-    if numeroLine - len(lines) < 63: # Défini les nombre de ligne par page
-        i=800
-        for line in lines[numeroLine:numeroLine+63]:
-            c.setFont('Helvetica',10,leading=None)
-            c.drawString(15, i, line.strip())   #si centré 300 sinon 15
-            numeroLine += 1
-            i -= 12                 #espace interligne
-        c.showPage()
-    else:
-        i = 800
-        for line in lines[numeroLine:]:
-           numeroLine += 1
-           i -= 12
-c.showPage()
 c.save()
 
+generate_book(c)
 
 
     

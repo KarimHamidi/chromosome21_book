@@ -1,0 +1,640 @@
+LOCUS       HQ286544                2518 bp    DNA     linear   VRT 23-OCT-2012
+DEFINITION  Amphiprion akindynos LWS opsin gene, complete cds.
+ACCESSION   HQ286544
+VERSION     HQ286544.1  GI:345522948
+KEYWORDS    .
+SOURCE      Amphiprion akindynos (barrier reef anemonefish)
+  ORGANISM  Amphiprion akindynos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Pomacentridae; Amphiprion.
+REFERENCE   1  (bases 1 to 2518)
+  AUTHORS   Hofmann,C.M., Marshall,N.J., Abdilleh,K., Patel,Z., Siebeck,U.E.
+            and Carleton,K.L.
+  TITLE     Opsin Evolution in Damselfish: Convergence, Reversal, and Parallel
+            Evolution Across Tuning Sites
+  JOURNAL   J. Mol. Evol. (2012) In press
+   PUBMED   23080353
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 2518)
+  AUTHORS   Hofmann,C.M., Marshall,N.J. and Carleton,K.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-SEP-2010) Department of Biology, University of
+            Maryland, 1210 Biology-Psychology Bldg, College Park, MD 20742, USA
+FEATURES             Location/Qualifiers
+     source          1..2518
+                     /organism="Amphiprion akindynos"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:229068"
+     mRNA            join(<13..115,1151..1447,1555..1723,1819..1984,2070..2309,
+                     2407..>2505)
+                     /product="LWS opsin"
+     CDS             join(13..115,1151..1447,1555..1723,1819..1984,2070..2309,
+                     2407..2505)
+                     /note="red sensitive visual pigment"
+                     /codon_start=1
+                     /product="LWS opsin"
+                     /protein_id="AEO00736.1"
+                     /db_xref="GI:345522949"
+                     /translation="MAEEWGKPVFAARRYNEETTRGSAFTYTNTNHTKDPFEGPNYHI
+                     APRWIYNVATVWMFFVVVLSVFTNGLVLVATAKFKKLRHPLNWILVNLAIADLGETVF
+                     ASTISVCNQFFGYFILGHPMCVFEGYVVSTCGITALWSLTIISWERWVVVCKPFGNVK
+                     FDAKWATGGIVFSWVWAAVWCAPPMFGWSRYWPHGLKTSCGPDVFSGSEDPGVQSYMI
+                     VLMVTCCLLPLAIIILCYLAVWLAIRAVALQQKESESTQKAEREVSRMVVVMIFAYCL
+                     CWGPYTFFACFAAANPGYAFHPLVAAMPAYFAKSATIYNPIIYVFMNRQFRTCIWKLF
+                     GKEVDDGSEVSTSKTEVSSVAPA"
+ORIGIN      
+        1 ttctcagatc agatggcaga agagtgggga aaaccggtgt ttgctgcccg gcggtacaat
+       61 gaagagacaa caaggggatc tgcctttact tacacaaaca ccaatcacac caaaggtaat
+      121 gtaggtttat tttatgtttt gtagaatttg atggcgatgt ttatcatatg agggactagt
+      181 ccttaaagta aaaaatggat caagagcctg cagtagacga ctcaaagaga aattatcatt
+      241 ttattgataa aagatctgag tgggttgctt cggcagagat aagtaactga aaatataaag
+      301 atcataaatg agtttacgaa tgattaaaca tttaattgag gtataacata gtcaaaacaa
+      361 attaatatag atgaaaaatt tctccactac aaacctgaga taaacacttt ttgtaaccat
+      421 aaaattaata catttggtaa ttactttatc acattcatgg acagatttag tttgaatata
+      481 tagcaaaaat ctaaagggca gcatggtgaa tttactgatt ttttatttta attttataaa
+      541 cagacaaaat tctgcttcaa agcatcgttc agcattttct cccatccatc catccatcca
+      601 tccatccatc catccattta ttatctatgc accacttaat cctcagtagg gtcacgaggg
+      661 gctggagtct atcccagctg acttatggct aaagcagggc acaccctgga caggtctaca
+      721 gtctatcaca gagctacaca tagagacaaa cacactgaca ttcacaccta tgggtaattc
+      781 agatttatca gttaactcat cctgtttttg gactctgaga ggaagccaga gaacccagag
+      841 aaaactcacg aatgcacaat gagaacatac aaactccaga aagatcccag gcccaggctg
+      901 ggacagtaac aagggatctt ctagctgcaa ggcaacggtg ctaaccacca gctttaacta
+      961 caatatgtat tattttgcag cactctttga aaactatact tttgttttat ttttattaca
+     1021 agacaaatgg catatccaat tatttacacc gtatttacca ttacatacat tagcttgtgc
+     1081 tgtctcaaaa ggtaatactt tgacatggcg agaccacatg aaaccaaatt gtgaaatttg
+     1141 tgttttccag atccctttga aggccccaac taccacattg ctcctcgatg gatttacaac
+     1201 gttgccacag tctggatgtt tttcgtggtc gtattatcgg tctttaccaa tggcctcgtc
+     1261 ttggtggcca cagcgaagtt caagaaactc cgtcatcctc taaactggat cttagttaat
+     1321 cttgccattg ctgaccttgg agagacagtc tttgccagca ccatcagtgt gtgcaaccag
+     1381 ttttttggtt atttcattct cggacaccca atgtgtgtct ttgagggcta tgttgtctca
+     1441 acttgtggta agcaattttt atccttaatg taatagtgtt taaaagcatt tttttttttt
+     1501 aaagtagaaa attcttagat ataagttgaa tgaatgtgat gcatctttac acaggtatta
+     1561 ctgctctttg gtccttgact atcatctcct gggagaggtg ggtagttgtg tgcaaacctt
+     1621 ttggaaacgt taagtttgat gccaagtggg ccactggggg aatcgtgttc tcctgggtct
+     1681 gggcagcagt gtggtgcgct cctcccatgt ttggatggag caggtagttg ctggtttttg
+     1741 ttttgatgtc actgatttgc aatacattgc ccagtggcaa tggaagctga accctggtta
+     1801 aacttcctct tgtgtcaggt actggcctca tggactgaaa acttcttgtg gacccgatgt
+     1861 gttcagcggg agtgaggacc ccggagtcca gtcctacatg attgttctca tggtcacatg
+     1921 ttgtcttctt cccctggcca tcatcatcct gtgctatctc gcagtgtggt tggccatccg
+     1981 tgctgtaagt tattccactt tactgtttta ttcttcatga gcagacgcca gcctggaaaa
+     2041 atctgacact tctgattcgt ggaccacagg ttgccctgca gcagaaggag tcagagtcca
+     2101 cacagaaagc tgagagggaa gtatccagga tggttgtggt catgatcttt gcttattgtt
+     2161 tgtgttgggg accttacaca ttttttgcct gctttgctgc tgccaaccct gggtatgcat
+     2221 tccatcctct ggttgctgcc atgcctgcat actttgccaa gagcgccacc atctacaacc
+     2281 caatcatcta tgtcttcatg aaccgacagg tgggctcaac aatctccaca gtgagcagct
+     2341 taccatgcca gatgtgttta gtgtccattt ttgacttact tttgtttttc attctttctc
+     2401 catcagttcc gtacatgcat ctggaagctt tttggcaaag aagtggatga tggttctgaa
+     2461 gtgtccacat caaagacaga agtctcctct gtggctcctg cataaacctc catgttct
+//
+
+LOCUS       HM107823                1074 bp    mRNA    linear   VRT 16-JUN-2010
+DEFINITION  Amphiprion melanopus red opsin mRNA, complete cds.
+ACCESSION   HM107823
+VERSION     HM107823.1  GI:298162599
+KEYWORDS    .
+SOURCE      Amphiprion melanopus (fire clownfish)
+  ORGANISM  Amphiprion melanopus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Pomacentridae; Amphiprion.
+REFERENCE   1  (bases 1 to 1074)
+  AUTHORS   Kim,N.N. and Choi,C.Y.
+  TITLE     Molecular cloning and characterization of red opsin cDNA from
+            cinnamon clownfish (Amphiprion melanopus)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1074)
+  AUTHORS   Kim,N.N. and Choi,C.Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-APR-2010) Division of Marine Environment &
+            BioScience, Korea Maritime University, #1, Dongsam-dong,
+            Youngdo-gu, Busan 606-791, Korea
+FEATURES             Location/Qualifiers
+     source          1..1074
+                     /organism="Amphiprion melanopus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:229072"
+     CDS             1..1074
+                     /codon_start=1
+                     /product="red opsin"
+                     /protein_id="ADI59667.1"
+                     /db_xref="GI:298162600"
+                     /translation="MAGAWGKPVFAARRYNEETTRGSAFTYTNTNHTKDPFEGPNYHI
+                     APRWVYNVATVWMFFVVILSVFTNGLVLVATAKFKKLRHPLNWILVNLAIADLGETVF
+                     ASTISVCNQFFGYFILGHPMCVFEGYIVSTCGITALWSLTIISWERWVVVCKPFGNVK
+                     FDAKWATGGIVFSWVWSAVWCAPPMFGWSRYWPHGLKTSCGPDVFSGSEDPGVQSYMI
+                     VLMVTCCLLPLAIIILCYLAVWLAIRAVALQQKESESTQKAEREVSRMVVVMIFAYCL
+                     CWGPYTFFACFAAANPGYAFHPLAAAMPAYFAKSATIYNPIIYVFMNRQFRTCIWKLF
+                     GKEVDDGSEVSTSKTEVSSVAPA"
+ORIGIN      
+        1 atggcaggag cgtggggaaa accggtgttt gctgcccgac ggtacaatga agagacaaca
+       61 aggggatctg cttttactta cacaaacacc aatcacacca aagatccctt tgaaggtccc
+      121 aactaccaca ttgctcctcg atgggtttac aacgttgcca cagtctggat gtttttcgtg
+      181 gtcatattat cagtctttac caatggcctc gtcttggtgg ccacagcgaa gttcaagaaa
+      241 ctccgtcatc ctctaaactg gatcttggtt aatcttgcca ttgctgacct tggagagaca
+      301 gtctttgcca gcaccatcag tgtgtgcaac cagttttttg gttatttcat tctcggacac
+      361 ccaatgtgtg tctttgaggg ctatattgtc tcaacttgtg gtattactgc tctttggtcc
+      421 ttgactatca tctcctggga gaggtgggta gttgtgtgca aaccttttgg aaacgttaag
+      481 tttgatgcca agtgggccac tggtggaatc gtgttctcct gggtctggtc agcagtgtgg
+      541 tgcgctcctc ccatgtttgg atggagcagg tactggcctc atggactgaa aacttcttgt
+      601 ggacctgatg tgttcagcgg gagtgaggac cccggagtcc agtcctacat gatagttctc
+      661 atggtcacat gttgtcttct tcccctggcc atcatcatcc tgtgctacct cgcggtgtgg
+      721 ttggccatcc gtgctgttgc ccttcagcag aaggagtcag agtccacaca gaaagctgag
+      781 agggaagtat ccaggatggt tgtggtcatg atctttgctt attgtttgtg ttggggacct
+      841 tacacatttt ttgcttgctt tgctgctgcc aaccctgggt atgcattcca tcctctggct
+      901 gctgccatgc ctgcatactt tgccaagagc gccaccatct acaacccaat catctatgtc
+      961 ttcatgaacc gacagttccg cacatgcatc tggaagcttt ttggcaaaga agtggatgat
+     1021 ggttctgaag tgtccacatc aaagacagaa gtctcatctg tggctcctgc ataa
+//
+
+LOCUS       HM107819                 695 bp    mRNA    linear   VRT 16-JUN-2010
+DEFINITION  Amphiprion melanopus blue opsin mRNA, partial cds.
+ACCESSION   HM107819
+VERSION     HM107819.1  GI:298162591
+KEYWORDS    .
+SOURCE      Amphiprion melanopus (fire clownfish)
+  ORGANISM  Amphiprion melanopus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Pomacentridae; Amphiprion.
+REFERENCE   1  (bases 1 to 695)
+  AUTHORS   Kim,N.N. and Choi,C.Y.
+  TITLE     Molecular cloning and characterization of blue opsin cDNA from
+            cinnamon clownfish (Amphiprion melanopus)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 695)
+  AUTHORS   Kim,N.N. and Choi,C.Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-APR-2010) Division of Marine Environment &
+            BioScience, Korea Maritime University, #1, Dongsam-dong,
+            Youngdo-gu, Busan 606-791, Korea
+FEATURES             Location/Qualifiers
+     source          1..695
+                     /organism="Amphiprion melanopus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:229072"
+     CDS             <1..>695
+                     /codon_start=1
+                     /product="blue opsin"
+                     /protein_id="ADI59663.1"
+                     /db_xref="GI:298162592"
+                     /translation="FLVPQDHLGSTGLFYSLSAFMLFLCVAGTAINVPTIVCTIQYKK
+                     LRSHLNYILVNLAVANLIVSSMGSSTCFICFAFRYMILGPVGCKVEGFTASLGGMVSL
+                     WSLAVIAVERWLVVCKPLGNFSFQPNHAIGLCALTWVFALFAAVPPLVGWSRYIPEGM
+                     QCACGPDWYTTNNKFNNESYVMFLFCFCFAVPFTTIVFCYSQLLFAVKAVAKAQAESV
+                     STQKAEREVTKMVV"
+ORIGIN      
+        1 ttcctggttc ctcaggacca tttaggaagc acagggctct tttattcatt gtcagcattt
+       61 atgttgttct tgtgtgtggc aggtacagcc atcaacgttc ccactatcgt ctgtactatt
+      121 caatacaaga agctccgctc tcatctgaac tacatcctgg tgaacttggc tgtggcaaac
+      181 ctgattgtct cctctatggg atcctccacc tgcttcatct gcttcgcctt cagatacatg
+      241 attctgggtc cagtggggtg caaggtcgaa ggatttacag caagtcttgg tggcatggtt
+      301 agcctgtggt cactcgctgt gatagcagtt gagagatggc tggttgtctg caagccgctt
+      361 ggaaacttct ccttccagcc caaccacgct atcggcctct gtgcattgac ttgggtcttt
+      421 gctttgttcg cagcagttcc tccgctagtt ggatggagta ggtacatccc agagggcatg
+      481 caatgtgcct gtggtccgga ctggtacaca acaaacaaca agtttaacaa tgagtcctat
+      541 gtgatgttcc tcttctgctt ctgctttgct gtccctttca cgaccatcgt cttctgctac
+      601 tcacagctgc ttttcgcagt gaaagcggta gcaaaggccc aggccgagtc tgtcagcacc
+      661 cagaaggctg agcgggaggt gaccaagatg gtggt
+//
+
+LOCUS       HQ286549                1266 bp    mRNA    linear   VRT 23-OCT-2012
+DEFINITION  Amphiprion akindynos RH1 opsin mRNA, complete cds.
+ACCESSION   HQ286549
+VERSION     HQ286549.1  GI:345522958
+KEYWORDS    .
+SOURCE      Amphiprion akindynos (barrier reef anemonefish)
+  ORGANISM  Amphiprion akindynos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Pomacentridae; Amphiprion.
+REFERENCE   1  (bases 1 to 1266)
+  AUTHORS   Hofmann,C.M., Marshall,N.J., Abdilleh,K., Patel,Z., Siebeck,U.E.
+            and Carleton,K.L.
+  TITLE     Opsin Evolution in Damselfish: Convergence, Reversal, and Parallel
+            Evolution Across Tuning Sites
+  JOURNAL   J. Mol. Evol. (2012) In press
+   PUBMED   23080353
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1266)
+  AUTHORS   Hofmann,C.M., Marshall,N.J. and Carleton,K.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-SEP-2010) Department of Biology, University of
+            Maryland, 1210 Biology-Psychology Bldg, College Park, MD 20742, USA
+FEATURES             Location/Qualifiers
+     source          1..1266
+                     /organism="Amphiprion akindynos"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:229068"
+     CDS             61..1119
+                     /note="rod visual pigment"
+                     /codon_start=1
+                     /product="RH1 opsin"
+                     /protein_id="AEO00741.1"
+                     /db_xref="GI:345522959"
+                     /translation="MNGTEGPFFYVPMVNTTGIVRSPYXYPQYYLVNPAAXAALGAYM
+                     FFLILAGFPINFLTLYVTLEHKKLRTPLNYILLNLAVANLFMVLGGFTTTMYTSMHGY
+                     FVLGRLGCNLEGFFATLGGEIALWSLVVLAIERWVVVCKPISNFRFGENHALMGLAFT
+                     WTMASACAVPPLVGWSRYIPEGMQCSCGVDYYTRAEGFNNESFVVYMFTCHFCVPLTV
+                     VFFCYGRLLCAVKEAAAAQQESETTQRAEREVTRMVVLMVIAFLVCWLPYAGVAWWIF
+                     THQGSEFGPVFMTIPAFFAKSSSIYNPMIYICMNKQFRHCMITTLCCGKNPFEEEEGA
+                     SSTKTEASSASSSSVSPA"
+ORIGIN      
+        1 tctcctaaac agccagaaga aacatcaccg aagggctgat cgcaaccgca agccgcaacc
+       61 atgaatggca cagagggacc ctttttttat gtccctatgg tgaacaccac cggcattgtc
+      121 cggagtcctt atgawtaccc tcagtactac cttgtcaacc cagccgcttw tgctgctctg
+      181 ggtgcctaca tgttcttcct catccttgct ggcttcccaa tcaacttcct caccctctac
+      241 gtcaccctcg aacacaagaa gctgcgaacc cctctaaact acatcctgct gaacctcgcg
+      301 gtggctaacc tcttcatggt gcttggagga ttcaccacaa cgatgtacac ctctatgcac
+      361 ggctacttcg tcctyggacg cctcggctgc aatctggaag gattctttgc taccctcggt
+      421 ggtgagattg ccctctggtc actggttgtt ctggctattg aaaggtgggt cgttgtctgc
+      481 aagcccatca gcaacttccg cttcggggag aatcacgctc ttatgggttt ggccttcacc
+      541 tggacaatgg ccagtgcctg cgctgttcct cctcttgtcg gctggtctcg ttacatccct
+      601 gagggcatgc agtgctcatg tggagttgac tactacacac gtgcagaggg tttcaacaat
+      661 gagagctttg tcgtctacat gttcacctgc cacttctgcg tcccactgac cgtcgtgttt
+      721 ttctgctacg gccgtctgct ctgtgctgtc aaggaggctg ctgctgccca gcaggagtct
+      781 gagaccaccc agagggctga gagggaagtc acccgcatgg tcgttctcat ggtcatcgct
+      841 ttcctggtat gttggttgcc ctatgccggt gtggcctggt ggatcttcac acatcagggc
+      901 tctgaatttg gaccggtctt catgacaatc cccgccttct ttgccaagag ttcctccatc
+      961 tacaacccaa tgatctacat ctgcatgaac aagcagttcc gccactgcat gatcaccacc
+     1021 ttgtgctgcg ggaagaatcc cttcgaagaa gaggagggag catcctccac caagaccgag
+     1081 gcctcctctg cctcctccag ctctgtgtct cctgcataaa aggggtaaca agcaaaagct
+     1141 ccaatatcca caattcaaga agaagacatc tgctccccca gggaaacgac tgaaggctaa
+     1201 tgtctacaca tataacgtct tttttgtatt tttacaaacg agttggttca acctaaagac
+     1261 agtgca
+//
+
+LOCUS       HQ286529                1085 bp    mRNA    linear   VRT 23-OCT-2012
+DEFINITION  Amphiprion akindynos RH2A opsin mRNA, complete cds.
+ACCESSION   HQ286529
+VERSION     HQ286529.1  GI:345522918
+KEYWORDS    .
+SOURCE      Amphiprion akindynos (barrier reef anemonefish)
+  ORGANISM  Amphiprion akindynos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Pomacentridae; Amphiprion.
+REFERENCE   1  (bases 1 to 1085)
+  AUTHORS   Hofmann,C.M., Marshall,N.J., Abdilleh,K., Patel,Z., Siebeck,U.E.
+            and Carleton,K.L.
+  TITLE     Opsin Evolution in Damselfish: Convergence, Reversal, and Parallel
+            Evolution Across Tuning Sites
+  JOURNAL   J. Mol. Evol. (2012) In press
+   PUBMED   23080353
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1085)
+  AUTHORS   Hofmann,C.M., Marshall,N.J. and Carleton,K.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-SEP-2010) Department of Biology, University of
+            Maryland, 1210 Biology-Psychology Bldg, College Park, MD 20742, USA
+FEATURES             Location/Qualifiers
+     source          1..1085
+                     /organism="Amphiprion akindynos"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:229068"
+     CDS             26..1084
+                     /note="green sensitive visual pigment"
+                     /codon_start=1
+                     /product="RH2A opsin"
+                     /protein_id="AEO00721.1"
+                     /db_xref="GI:345522919"
+                     /translation="MVWEGGIEPNGTEGKNFYIPMSNRTGIVRSPFEYPQYYMVDPMI
+                     YKLLAFYMFFLICTGTPINGLTLFVTAQNKKLRQPLNYILVNLAVAGLIMCCFGFTIT
+                     ITSAVNGYFILGPTFCAIEGFMATLGGEVALWSLVVLAVERYIVVCKPMGSFKFTGTH
+                     AAAGVTFTWIMAMACAAPPLAGWSRYLPEGMQCSCGPDYYTLAPGYNNESYVIYMFVV
+                     HFFIPVFLIFFTYGSLVMTVKAAAAQQQDSASTQKAEKEVTRMCVLMVIGFLVAWVPY
+                     ATFAGWIFLNKGAAFTALTAALPAFFAKSSALYNPVIYVLMNKQFRNCMLTTIGMGGM
+                     VEDETSVSTSKTEVSTAS"
+ORIGIN      
+        1 gtatcagaac aactgactag caaacatggt ttgggaagga ggaattgagc ctaatggcac
+       61 tgagggcaag aacttctaca ttcccatgtc caataggact gggattgtta gaagtccttt
+      121 tgaataccct cagtattata tggtggaccc aatgatctac aagctgctag ctttctacat
+      181 gttcttcctg atctgcactg gaactcccat caacggcctg acattgtttg tgacggcgca
+      241 gaacaagaag cttcggcaac ctctcaacta catcctcgtc aacctggctg tggctggact
+      301 catcatgtgc tgcttcggct tcaccatcac cattacatct gctgtcaacg gctacttcat
+      361 tcttggaccc actttctgcg ctattgaggg attcatggcc acacttggag gtgaagttgc
+      421 tctctggtca ctggtcgtcc tggctgttga gagatacatt gtcgtctgca aacctatggg
+      481 aagcttcaag tttactggaa ctcatgctgc agctggagtc acgttcacct ggatcatggc
+      541 tatggcttgc gctgctcccc cacttgccgg ctggtccagg taccttcctg agggcatgca
+      601 gtgctcctgt ggacctgact actacactct ggccccaggc tacaacaatg agtcatacgt
+      661 catctacatg tttgtcgtcc acttcttcat tcctgtcttc ctcattttct tcacctatgg
+      721 aagccttgtg atgacagtca aagctgctgc agcccagcag caagactcag cttccaccca
+      781 gaaagctgag aaggaagtga ctcgcatgtg cgtcctgatg gtcattggct tcctggtagc
+      841 ttgggtacca tatgccacct tcgcaggttg gatcttcctg aacaaaggtg ctgccttcac
+      901 cgccctgact gcagccctcc ctgctttctt tgcaaagagc tctgccttgt acaaccctgt
+      961 aatctatgtg ctgatgaaca aacagttccg taactgcatg ctgaccacta ttggaatggg
+     1021 tggcatggtg gaggatgaga cctcagtctc aacaagcaag acagaggttt ccactgcgtc
+     1081 ttaat
+//
+
+LOCUS       HQ286519                1163 bp    mRNA    linear   VRT 23-OCT-2012
+DEFINITION  Amphiprion akindynos RH2B opsin mRNA, complete cds.
+ACCESSION   HQ286519
+VERSION     HQ286519.1  GI:345522898
+KEYWORDS    .
+SOURCE      Amphiprion akindynos (barrier reef anemonefish)
+  ORGANISM  Amphiprion akindynos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Pomacentridae; Amphiprion.
+REFERENCE   1  (bases 1 to 1163)
+  AUTHORS   Hofmann,C.M., Marshall,N.J., Abdilleh,K., Patel,Z., Siebeck,U.E.
+            and Carleton,K.L.
+  TITLE     Opsin Evolution in Damselfish: Convergence, Reversal, and Parallel
+            Evolution Across Tuning Sites
+  JOURNAL   J. Mol. Evol. (2012) In press
+   PUBMED   23080353
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1163)
+  AUTHORS   Hofmann,C.M., Marshall,N.J. and Carleton,K.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-SEP-2010) Department of Biology, University of
+            Maryland, 1210 Biology-Psychology Bldg, College Park, MD 20742, USA
+FEATURES             Location/Qualifiers
+     source          1..1163
+                     /organism="Amphiprion akindynos"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:229068"
+     CDS             62..1099
+                     /note="putative green sensitive visual pigment"
+                     /codon_start=1
+                     /product="RH2B opsin"
+                     /protein_id="AEO00711.1"
+                     /db_xref="GI:345522899"
+                     /translation="MENGTEGKNFYIPMNNRTGLVRSPFEYPQYYLADPWQFKLLGLY
+                     MFVLICTGFPINFLTLVVTAQNKKLRQPLNFILVNLAVAGLIMVVFGFTVTIYSCMVG
+                     YFSLGPMGCAIEGFMATLGGQVSLWSLVVLAIERYIVVCKPMGSFKFTATHSAIGCGF
+                     TWFMACTCAVPPLVGWSRYIPEGIQVSCGPDYYTLSPAYNNESYVMYLFSCHFCVPVF
+                     LIFFTYGSLVLTVKAAAAQQQDSASTQKAEKEVTRMCVLMVFGFLFAWTPYASFAAWI
+                     FFNKGAAFSAVSMAIPAFFSKSSALFNPVIYILMNKQFRNCMLSTIGMGGMVEDETSV
+                     STSKTEVSSVS"
+ORIGIN      
+        1 gctgccttga cagtcctcct agattatcct actctagcca gtccaatcct aacttgtgaa
+       61 gatggagaac ggcacagaag gcaagaactt ctacatcccc atgaacaaca ggacggggct
+      121 tgtcaggagt cctttcgaat atccacagta ttacctggca gacccatggc aattcaaact
+      181 actgggcttg tacatgtttg tcctgatctg cactggattc cccatcaact ttctgacact
+      241 ggtggtcaca gcgcagaaca agaagctccg acagcctctc aactttatcc tggttaactt
+      301 ggccgtggct ggactcataa tggtcgtctt tggattcaca gtcaccattt attcttgcat
+      361 ggtgggctat ttctccttgg gacccatggg gtgcgctatt gagggattca tggctacact
+      421 cggaggtcaa gtgtctctgt ggtctcttgt ggttcttgcc attgagagat acattgtggt
+      481 ctgtaaaccc atgggcagct tcaaattcac agccacccac tctgcgatag gctgcggatt
+      541 cacctggttc atggcttgca cctgtgctgt tcctcccctg gtcggctggt caagatatat
+      601 ccctgagggt atccaggttt cctgcggacc tgactattac actctttctc cagcttacaa
+      661 caacgaatcc tatgtgatgt acttgttcag ctgccatttc tgtgttccag tcttcctcat
+      721 tttcttcact tatggaagcc ttgtgctgac agtcaaagcc gctgcagccc agcagcagga
+      781 ctctgcatcc acccagaagg ctgagaagga agtcacacgt atgtgcgtcc tgatggtctt
+      841 tggcttcctc tttgcctgga ccccatatgc tagctttgct gcatggatct tctttaacaa
+      901 gggagctgcc ttctcagctg tctccatggc catccctgct ttcttctcaa agagctcagc
+      961 tttgttcaat cctgttatct acatccttat gaacaaacag ttccgtaact gcatgctgag
+     1021 cactattgga atgggtggca tggttgagga tgaaacctca gtatctacca gcaagacaga
+     1081 agtctcctca gtgtcctaag aatcataatt ccacatctcc agacaccctc cttcctgatg
+     1141 tcttcctgat tctgaatggc tgt
+//
+
+LOCUS       HQ286509                1003 bp    mRNA    linear   VRT 23-OCT-2012
+DEFINITION  Amphiprion akindynos SWS2B opsin mRNA, partial cds.
+ACCESSION   HQ286509
+VERSION     HQ286509.1  GI:345522878
+KEYWORDS    .
+SOURCE      Amphiprion akindynos (barrier reef anemonefish)
+  ORGANISM  Amphiprion akindynos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Pomacentridae; Amphiprion.
+REFERENCE   1  (bases 1 to 1003)
+  AUTHORS   Hofmann,C.M., Marshall,N.J., Abdilleh,K., Patel,Z., Siebeck,U.E.
+            and Carleton,K.L.
+  TITLE     Opsin Evolution in Damselfish: Convergence, Reversal, and Parallel
+            Evolution Across Tuning Sites
+  JOURNAL   J. Mol. Evol. (2012) In press
+   PUBMED   23080353
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1003)
+  AUTHORS   Hofmann,C.M., Marshall,N.J. and Carleton,K.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-SEP-2010) Department of Biology, University of
+            Maryland, 1210 Biology-Psychology Bldg, College Park, MD 20742, USA
+FEATURES             Location/Qualifiers
+     source          1..1003
+                     /organism="Amphiprion akindynos"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:229068"
+     CDS             <1..>1003
+                     /note="putative violet sensitive visual pigment"
+                     /codon_start=1
+                     /product="SWS2B opsin"
+                     /protein_id="AEO00701.1"
+                     /db_xref="GI:345522879"
+                     /translation="PIALDTKNITSLSPYLVPQDHLGSTGLFYSLSAFMLFLSVAGTA
+                     INVLTIVCTIQYKKLRSHLNYILVNLAVANLIVSSMGSSTCFICFAFRYMILGPVGCK
+                     VEGFTASLGGMVSLWSLAVIAVERWLVVCKPLGNFSFQPNHAIGLCALTWVFALFAAV
+                     PPLVGWSRYIPEGMQCACGPDWYTTNNKFNNESYVIFLFGFCFAVPFTTIVFCYSQLL
+                     FAVKAVAKAQAESVSTQKAEREVTKMVVLMVLGFLVCYMPYASFAIWVMNNHGQEFDL
+                     RLATIPSALSKASTVYNPVIYVLLNKQFRSCMKRMLGMSGAGDEESTSQSTTEVSKVE
+                     "
+ORIGIN      
+        1 cccatcgctc tggacaccaa aaacatcaca tctctcagcc cgtacttggt tcctcaggac
+       61 catttaggaa gcacagggct cttttattca ttgtcagcat ttatgttgtt cttgtctgtg
+      121 gcaggtacag ccatcaacgt tctcactatc gtctgtacta ttcaatacaa gaagctccgc
+      181 tctcatctga actacatcct ggtgaacttg gctgtggcaa acctgattgt ctcctctatg
+      241 ggatcctcca cctgcttcat ctgcttcgcc ttcagataca tgattctggg tccagtgggg
+      301 tgcaaggtcg aaggatttac agcaagtctt ggtggcatgg ttagcctgtg gtcgctcgct
+      361 gtgatagcag ttgagagatg gctggttgtc tgcaagccrc ttggaaactt ctccttccag
+      421 cccaaccacg ctatcggcct ctgtgcattg acttgggtct ttgctttgtt cgcagcagtt
+      481 cctccgctag ttggatggag taggtacatc ccagagggca tgcaatgtgc ctgtggtccg
+      541 gactggtaca caacaaacaa caagtttaac aatgagtcct atgtgatttt cctcttcggc
+      601 ttctgctttg ctgtcccttt cacgaccatc gtcttctgct actcacagct gcttttcgcg
+      661 gtgaaagcgg tagcaaaggc ccaggccgag tctgtcagca cccagaaggc tgagcgggag
+      721 gtgaccaaga tggtggtcct catggtgctg ggcttcctgg tttgctatat gccttacgcc
+      781 tcctttgcta tttgggttat gaacaatcat gggcaagaat ttgacctacg actggccacc
+      841 atcccctccg ccctctctaa agcctccaca gtctacaacc ctgttatcta cgtgctctta
+      901 aataaacagt tccgctcatg tatgaagcgg atgttgggga tgagtggagc cggcgatgag
+      961 gaatcaacaa gtcaatcaac cactgaagtc tctaaagttg aac
+//
+
+LOCUS       HQ286499                1001 bp    mRNA    linear   VRT 23-OCT-2012
+DEFINITION  Amphiprion akindynos SWS1 opsin mRNA, partial cds.
+ACCESSION   HQ286499
+VERSION     HQ286499.1  GI:345522858
+KEYWORDS    .
+SOURCE      Amphiprion akindynos (barrier reef anemonefish)
+  ORGANISM  Amphiprion akindynos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Pomacentridae; Amphiprion.
+REFERENCE   1  (bases 1 to 1001)
+  AUTHORS   Hofmann,C.M., Marshall,N.J., Abdilleh,K., Patel,Z., Siebeck,U.E.
+            and Carleton,K.L.
+  TITLE     Opsin Evolution in Damselfish: Convergence, Reversal, and Parallel
+            Evolution Across Tuning Sites
+  JOURNAL   J. Mol. Evol. (2012) In press
+   PUBMED   23080353
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1001)
+  AUTHORS   Hofmann,C.M., Marshall,N.J. and Carleton,K.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-SEP-2010) Department of Biology, University of
+            Maryland, 1210 Biology-Psychology Bldg, College Park, MD 20742, USA
+FEATURES             Location/Qualifiers
+     source          1..1001
+                     /organism="Amphiprion akindynos"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:229068"
+     CDS             <1..973
+                     /note="ultraviolet sensitive visual pigment"
+                     /codon_start=2
+                     /product="SWS1 opsin"
+                     /protein_id="AEO00691.1"
+                     /db_xref="GI:345522859"
+                     /translation="PFEGPQYYLAPSWAFNLQAAFMGFVFCAGTPLNLVVLLAVAKYK
+                     KLRVPLNYILVNISFAGFIFVTFSVSQVFFASLKGYYFFGHTLCALESAVGSIAGLVT
+                     AWSLAVLSFERYLVICKPFGAFKFDTNHAMGAVLFTWVIGIFCATPPFWGWSRYIPEG
+                     LGCSCGPDWYTHNEEYNCTSYVYFLMVTCFILPLFIIIFSYSQLLGALRAVAAQQTES
+                     VSTQKAEKEVSRMIIVMVGSFVTCYGPYAIAALYFGFSADENKDYRLVTIPAFFSKSS
+                     CVYNPLIYAFMNKQFNACIMEMVFGKKMEESSEVSSKTETSSVSTAS"
+ORIGIN      
+        1 ccccttcgag gggccccagt actacctggc cccctcgtgg gccttcaacc tgcaggctgc
+       61 cttcatgggc ttcgtctttt gcgctggaac gccactgaac ttggtcgtcc tgcttgccgt
+      121 cgccaagtac aagaagcttc gagttcccct caactacatc ctggtcaaca tctccttcgc
+      181 cggcttcatc ttcgtcacgt tctccgtcag ccaggtgttc ttcgccagcc tcaagggtta
+      241 ctacttcttc ggtcacacct tgtgcgcttt agagtcggcg gtcgggtcca tcgcaggtct
+      301 ggtaacggcc tggtcattgg cggtcctttc cttcgagaga tacctggtca tctgcaaacc
+      361 cttcggagcc tttaagtttg acacgaatca cgcgatgggc gccgtcctct tcacctgggt
+      421 catcgggatc ttctgtgcaa cgccgccgtt ctggggctgg agcaggtaca tccctgaggg
+      481 tctgggctgt tcctgcggtc ccgactggta cacccacaac gaggagtaca actgcaccag
+      541 ctacgtctac ttcctgatgg tgacctgctt catcctcccg ctcttcatca tcatcttctc
+      601 ctactcccag ctgctgggag ccctgagagc tgtcgccgcc cagcagacgg agtcggtgtc
+      661 cacccagaag gctgagaagg aggtctccag gatgatcatc gtcatggtgg gttccttcgt
+      721 cacctgctac ggtccctacg ccatcgcagc gctctacttc ggcttcagcg ccgacgagaa
+      781 caaggactac cggctggtca ccatcccggc gttcttctcc aagagctcct gcgtctacaa
+      841 cccgctcatc tatgccttca tgaacaaaca gtttaacgcc tgcatcatgg aaatggtgtt
+      901 tggaaagaaa atggaagaat cctctgaagt ttcttcaaag actgagacgt cttcagtctc
+      961 aacagcttct taatgtttgg atcctaatga caccaaacac c
+//
+
+LOCUS       JN935820                1176 bp    DNA     linear   VRT 31-OCT-2012
+DEFINITION  Amphiprion akindynos recombinant activation protein 1 (RAG1) gene,
+            partial cds.
+ACCESSION   JN935820
+VERSION     JN935820.1  GI:403115351
+KEYWORDS    .
+SOURCE      Amphiprion akindynos (barrier reef anemonefish)
+  ORGANISM  Amphiprion akindynos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Pomacentridae; Amphiprion.
+REFERENCE   1  (bases 1 to 1176)
+  AUTHORS   Hofmann,C.M., Marshall,N.J., Abdilleh,K., Patel,Z., Siebeck,U.E.
+            and Carleton,K.L.
+  TITLE     Opsin Evolution in Damselfish: Convergence, Reversal, and Parallel
+            Evolution Across Tuning Sites
+  JOURNAL   J. Mol. Evol. (2012) In press
+   PUBMED   23080353
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1176)
+  AUTHORS   Hofmann,C.M., Marshall,N.J., Patel,Z., Siebeck,U. and Carleton,K.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-OCT-2011) Department of Biology, University of
+            Maryland, 1210 Biology Psychology Bldg, College Park, MD 20742, USA
+FEATURES             Location/Qualifiers
+     source          1..1176
+                     /organism="Amphiprion akindynos"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:229068"
+                     /country="Australia: Moreton Bay"
+                     /collection_date="Jul-2007"
+     gene            <1..>1176
+                     /gene="RAG1"
+     CDS             <1..>1176
+                     /gene="RAG1"
+                     /codon_start=3
+                     /product="recombinant activation protein 1"
+                     /protein_id="AFR23571.1"
+                     /db_xref="GI:403115352"
+                     /translation="LHSLRTAEKELLPGFHQFEWQPALKNVSPSCNVGIINGLSGWAS
+                     SVDDSPADTITRRFRYDVALVSALKDLEEDIMDGLRESGMEDSACTSGFSVMIKECCD
+                     GMGDVSEKHGGGPVVPEKAVRFSFTIMSVSILADGKKEKVTIFTEPKPNSEMSCKPLC
+                     LMFVDESDHETLTALLGPVVAERNAMKESRLILSIGGLSRSFRFHFRGTGYDEKMVRE
+                     MEGLEASGSTYVCTLCDSTRAEASKNMVLHSVTRSHEENLERYEIWRRNPFSESADEL
+                     RDRVKGVSSKPFLETQPTLDALHCDIGNASEFFKIFQDEIGEMHEKVNPSREQRRSWR
+                     AALDKQLRKKMKLKPVMRMNGNYARRLMTMEAVEVVCELVPSEERKEALRELMRLYL"
+ORIGIN      
+        1 cgctgcacag cctccgaact gcagagaagg agcttctccc cggctttcac cagtttgaat
+       61 ggcagccagc tctcaagaat gtgtctccrt cttgcaacgt tggcattatt aacgggctct
+      121 ctggatgggc ttcctcagta gatgactccc cggctgacac aatcactcgg cgctttcgtt
+      181 atgatgtggc actggtgtct gcattaaagg atctggagga ggacatcatg gacgggctga
+      241 gagagagtgg gatggaagac agcgcttgca cctcaggctt tagcgtcatg atcaaggaat
+      301 gttgtgatgg catgggtgat gtcagcgaga agcacggcgg aggacctgtt gttcctgaga
+      361 aggctgtacg cttctctttc accattatgt ctgtctccat tctcgcagac ggtaagaagg
+      421 agaaagttac cattttcact gagccaaaac caaactcaga gatgtcctgc aagcccctct
+      481 gcctgatgtt cgtggatgag tcagaccatg agacgctcac ggctctcctg gggcccgtag
+      541 ttgcagagcg gaatgcaatg aaagagagca gactcatcct gtccatcggc ggcctgtctc
+      601 gctcttttcg attccacttc aggggcacgg gatatgatga gaagatggtg cgtgagatgg
+      661 agggtctgga ggcctcgggg tccacatatg tctgcactct gtgtgactcc acccgtgcag
+      721 aagcctctaa aaacatggtg cttcactcgg tcactcgcag tcacgaggag aacctggaac
+      781 gatacgaaat ctggagaaga aaccccttct ctgagtctgc agacgagctg cgagacagag
+      841 tcaaaggggt ctcctctaag cccttcttgg agacccaacc cacgctcgat gcattgcact
+      901 gcgacatcgg caacgccagt gaattcttta aaatcttcca ggatgagatc ggggaaatgc
+      961 acgaaaaggt caaccccagc cgggagcaac ggcgcagctg gagggcagcg ctggacaaac
+     1021 agctgaggaa gaagatgaag cttaaaccgg taatgaggat gaatgggaac tacgcccgcc
+     1081 ggctaatgac catggaggcc gtggaggtgg tgtgtgagct ggtgccctct gaggagagga
+     1141 aggaggccct gagggagctc atgaggctct acctgc
+//
+
+LOCUS       JN935810                 886 bp    DNA     linear   VRT 31-OCT-2012
+DEFINITION  Amphiprion akindynos 12S ribosomal RNA gene, partial sequence;
+            mitochondrial.
+ACCESSION   JN935810
+VERSION     JN935810.1  GI:403115318
+KEYWORDS    .
+SOURCE      mitochondrion Amphiprion akindynos (barrier reef anemonefish)
+  ORGANISM  Amphiprion akindynos
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Pomacentridae; Amphiprion.
+REFERENCE   1  (bases 1 to 886)
+  AUTHORS   Hofmann,C.M., Marshall,N.J., Abdilleh,K., Patel,Z., Siebeck,U.E.
+            and Carleton,K.L.
+  TITLE     Opsin Evolution in Damselfish: Convergence, Reversal, and Parallel
+            Evolution Across Tuning Sites
+  JOURNAL   J. Mol. Evol. (2012) In press
+   PUBMED   23080353
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 886)
+  AUTHORS   Hofmann,C.M., Marshall,N.J., Patel,Z., Siebeck,U. and Carleton,K.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-OCT-2011) Department of Biology, University of
+            Maryland, 1210 Biology Psychology Bldg, College Park, MD 20742, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.9
+            Coverage              :: 2.5x
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..886
+                     /organism="Amphiprion akindynos"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:229068"
+                     /country="Australia: Moreton Bay"
+                     /collection_date="Jul-2007"
+     rRNA            <1..>886
+                     /product="12S ribosomal RNA"
+ORIGIN      
+        1 actgtcggct ctagctaaac ttacacatgc aagtatccgc acccctgtga gaatgccctc
+       61 cagtctcccg cccgaagaca aggagccggt atcaggcacg gttaacacca gcccatgaca
+      121 ccttgcttag ccacaccctc aagggacacc agcagtgata aatattaagc tatgagtgaa
+      181 aacttgactt agttaaagct tagagggccg gtaaaactcg tgccagccac cgcggttata
+      241 cgagaggctc aagttgacag actacggcgt aaagagtggt tagggaaact tttagactaa
+      301 agccgaacgt cctcaaagct gtttaacgct tccgagttaa gaagatccat tacgaaagta
+      361 gctttaccca acctgacccc acgaaagctg tgaaacaaac tgggattaga taccccacta
+      421 tgctcagccc taaaatttga taggccaact acgcccccta tccgcccggg tactacgagc
+      481 atcagcttaa aacccaaagg acttggcggt gcttcacatc cgtctagagg agcctgttct
+      541 agaaccgata acccccgtta aacctcaccc tcccttgtta ataccgccta tataccgccg
+      601 tcgtcagcct accctgtgaa ggactagaag tgagcaagat tggtaagacc caaaacgtca
+      661 ggtcgaggtg tagtgtatga gaggggaaga aatgggctac atttcctaaa ttaggaaata
+      721 cgaataatga actgaaataa gcattagaag gtggatttag cagtaagcag taaaacagag
+      781 tgttctgctg aaatttggca ataaagcacg cacatatcgc ccgtcactct ctccgagcta
+      841 atacaaaaac aaatacctaa aaaactacat ctgcaaaggg gaggca
+//
+
