@@ -3,7 +3,14 @@
 #Created on Mon Oct  3 10:14:48 2016
 #
 #@author: karim
+
+
+
 #"""
+import os 
+os.chdir('C:/Users/karim/FirstStepProject/.spyproject/programming')
+
+
 ##EXERCICES 1  031016 6Q
 #fasta=""">gi|506953611|gb|KC684925.1| Amphiprion clarkii rhodopsin (RH) mRNA, partial cds
 #AGTCCTTATGAGTACCCTCAGTACTACCTTGTCAACCCAGCCGCTTATGCTGCTCTGGGTGCCTACATGT
@@ -277,4 +284,131 @@ with open('C:\\Users\\karim\\FirstStepProject\\.spyproject\\convfasta.fasta', 'w
                         outfile.write(line)
                 else:
                     readline()
+        
+#transformer un fichier genbank en fasta
+def genbank2fasta(gbname,fastaname):
+    gbfile = openFile(gbname,'r')
+    fastafle=openFile(fastaname,'r')
+    
+    seqstart = False
+    for line in gbgile:
+        if line.find('LOCUS')==0:
+            dna = ''
+        elif line.find('DEFINITION') ==0:
+            tmp=line.rstrip('\n').split()
+            desc = ' '.join(tmp[1:])
+        elif line.find('VERSION')==0:
+            tmp = line.rstrip('\n').split()
+            gbnum = [2]
+            ginum =tmp[2].split(':')[1]
+            print('Reading locus %s' %gbnum)
+        elif line.find('ORIGIN')==0:
+            seqstart = False
+            fastafile.write('>gi|%s|gb|%s| %s\n%s\n') % (ginum,)
+        elif seqstart:
+            tmp = line.split()
+            dna = dna+''.join(tmp[1:])
+    print('done')
+    # oir la fin sur le site de monsieur salamin
+    
+class Sequence:
+    type = 'DNA'
+    
+    def setSequenceLength(self,l)
+    self.length = l
+    
+    def getSequenceLength(self):
+        return self.length
 
+mysq = Sequence()
+mysq2 = Sequence()
+
+mysq2.type()
+
+Sequence.type
+myseq.length() #il y a une erreur car la variable lenght est caché dabs la définition de l'objet. 
+#part contre dans cette façon d'écrire a passe.
+mysq.setSequenceLength(451)
+#si on rappelle le myseq.length cela fonction. 
+
+#EXERCICE DU SITE CRREATION DE CLASSE DOBJET
+
+genetic_code = {
+'ATA':'I', 'ATC':'I', 'ATT':'I', 'ATG':'M',
+'ACA':'T', 'ACC':'T', 'ACG':'T', 'ACT':'T',
+'AAC':'N', 'AAT':'N', 'AAA':'K', 'AAG':'K',
+'AGC':'S', 'AGT':'S', 'AGA':'R', 'AGG':'R',
+'CTA':'L', 'CTC':'L', 'CTG':'L', 'CTT':'L',
+'CCA':'P', 'CCC':'P', 'CCG':'P', 'CCT':'P',
+'CAC':'H', 'CAT':'H', 'CAA':'Q', 'CAG':'Q',
+'CGA':'R', 'CGC':'R', 'CGG':'R', 'CGT':'R',
+'GTA':'V', 'GTC':'V', 'GTG':'V', 'GTT':'V',
+'GCA':'A', 'GCC':'A', 'GCG':'A', 'GCT':'A',
+'GAC':'D', 'GAT':'D', 'GAA':'E', 'GAG':'E',
+'GGA':'G', 'GGC':'G', 'GGG':'G', 'GGT':'G',
+'TCA':'S', 'TCC':'S', 'TCG':'S', 'TCT':'S',
+'TTC':'F', 'TTT':'F', 'TTA':'L', 'TTG':'L',
+'TAC':'Y', 'TAT':'Y', 'TAA':'*', 'TAG':'*',
+'TGC':'C', 'TGT':'C', 'TGA':'*', 'TGG':'W',
+}
+
+amino_weight = {
+'A': 71.038,
+'C': 103.009,
+'D': 115.027,
+'E': 129.043,
+'F': 147.068,
+'G': 57.021,
+'H': 137.059,
+'I': 113.084,
+'K': 128.095,
+'L': 113.084,
+'M': 131.040,
+'N': 114.043,
+'P': 97.053,
+'Q': 128.059,
+'R': 156.101,
+'S': 87.032,
+'T': 101.048,
+'V': 99.068,
+'W': 186.079,
+'Y': 163.063
+}
+
+
+class Sequence:
+    def __init__(self, name='', seq=''):
+        self.name = name
+        self.seq = seq
+    
+    def length(self):
+        return len(self.seq)
+        
+    def read_from_fasta(self, file):
+        fasta = open(file,'r')
+        self.seq = ''
+        for line in fasta:
+            if  '>' not in line:
+                self.seq = self.seq + str(line[:-1])
+            else:
+                self.name = self.name+str(line)
+
+class DNASequence(Sequence):                
+    def gc(self):
+        
+        self.gc = (self.seq.count('G')+self.seq.count('C'))/self.length()
+        
+    def translate(self):
+        self.translate = ''
+        for i in range(0,len(self.seq),3):
+            start = self.seq.find('AUG')
+            self.n = self.length
+            
+        
+        
+
+opsin = DNASequence()
+opsin.read_from_fasta('C:/Users/karim/FirstStepProject/.spyproject/programming/clownfish.fasta') 
+opsin.gc()
+opsin.gc
+                
